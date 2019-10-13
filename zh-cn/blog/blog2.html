@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="keywords" content="blog2" />
+	<meta name="description" content="blog2" />
+	<!-- 网页标签标题 -->
+	<title>blog2</title>
+	<link rel="shortcut icon" href="/img/docsite.ico"/>
+	<link rel="stylesheet" href="/build/blogDetail.css" />
+</head>
+<body>
+	<div id="root"><div class="blog-detail-page" data-reactroot=""><header class="header-container header-container-normal"><div class="header-body"><a href="/zh-cn/index.html"><img class="logo" src="/img/dubbo_colorful.png"/></a><div class="search search-normal"><span class="icon-search"></span></div><div class="header-menu"><img class="header-menu-toggle" src="/img/system/menu_gray.png"/><ul><li class="menu-item menu-item-normal"><a href="/zh-cn/index.html" target="_self">首页</a></li><li class="menu-item menu-item-normal menu-item-normal-active"><a href="/zh-cn/blog/index.html" target="_self">博客</a></li><li class="menu-item menu-item-normal"><a href="/zh-cn/docs/demo1.html" target="_self">关于我</a></li></ul></div></div></header><section class="blog-content markdown-body"><h3>代码测试</h3>
+<pre><code class="language-javascript"><span class="hljs-comment">// 创建请求</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getJsonp</span>(<span class="hljs-params">url, callback</span>) </span>{
+    <span class="hljs-keyword">const</span> tag = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'script'</span>);
+    tag.setAttribute(<span class="hljs-string">'src'</span>, <span class="hljs-string">`<span class="hljs-subst">${url}</span>?callback=<span class="hljs-subst">${callback}</span>`</span>);
+    <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'head'</span>).appendChild(tag);
+}
+</code></pre>
+</section><footer class="footer-container"><div class="footer-body"><div class="copyright"><span>Copyright © 2019. Contact: 1009852333@qq.com</span></div></div></footer></div></div>
+	<script src="https://f.alicdn.com/react/15.4.1/react-with-addons.min.js"></script>
+	<script src="https://f.alicdn.com/react/15.4.1/react-dom.min.js"></script>
+	<script>
+		window.rootPath = '';
+  </script>
+	<script src="/build/blogDetail.js"></script>
+</body>
+</html>

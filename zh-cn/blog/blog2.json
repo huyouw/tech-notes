@@ -1,0 +1,9 @@
+{
+  "filename": "blog2.md",
+  "__html": "<h3>代码测试</h3>\n<pre><code class=\"language-javascript\"><span class=\"hljs-comment\">// 创建请求</span>\n<span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span> <span class=\"hljs-title\">getJsonp</span>(<span class=\"hljs-params\">url, callback</span>) </span>{\n    <span class=\"hljs-keyword\">const</span> tag = <span class=\"hljs-built_in\">document</span>.createElement(<span class=\"hljs-string\">'script'</span>);\n    tag.setAttribute(<span class=\"hljs-string\">'src'</span>, <span class=\"hljs-string\">`<span class=\"hljs-subst\">${url}</span>?callback=<span class=\"hljs-subst\">${callback}</span>`</span>);\n    <span class=\"hljs-built_in\">document</span>.querySelector(<span class=\"hljs-string\">'head'</span>).appendChild(tag);\n}\n</code></pre>\n",
+  "link": "\\zh-cn\\blog\\blog2.html",
+  "meta": {
+    "key1": "hello",
+    "key2": "world"
+  }
+}

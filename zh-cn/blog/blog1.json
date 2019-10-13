@@ -1,0 +1,6 @@
+{
+  "filename": "blog1.md",
+  "__html": "<table>\n<thead>\n<tr>\n<th>aaa</th>\n<th>ss</th>\n<th>ss</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>sss</td>\n<td>ss</td>\n<td>dd</td>\n</tr>\n<tr>\n<td>sss</td>\n<td>ss</td>\n<td>ddd</td>\n</tr>\n</tbody>\n</table>\n<pre><code class=\"language-math\">e^{i\\pi} + 1 = 0\n</code></pre>\n<pre><code class=\"language-mermaid\">graph TD\nA[模块A] --&gt;|A1| B(模块B)\nB --&gt; C{判断条件C}\nC --&gt;|条件C1| D[模块D]\nC --&gt;|条件C2| E[模块E]\nC --&gt;|条件C3| F[模块F]\n</code></pre>\n<pre><code class=\"language-mermaid\">sequenceDiagram\nA-&gt;&gt;B: 是否已收到消息？\nB--&gt;&gt;A: 已收到消息\n</code></pre>\n<pre><code class=\"language-mermaid\">gantt\ntitle 甘特图\ndateFormat  YYYY-MM-DD\nsection 项目A\n任务1           :a1, 2018-06-06, 30d\n任务2     :after a1  , 20d\nsection 项目B\n任务3      :2018-06-12  , 12d\n任务4      : 24d\n</code></pre>\n<p>[ ] dsfsfd\n[x] 曾多次都是错的</p>\n<blockquote>\n<p>icxzlkncxklznclfdsfd从V型从必须的广东省\nfsdfdsf 发送到发生</p>\n</blockquote>\n<p>发生发的顺丰到付</p>\n",
+  "link": "\\zh-cn\\blog\\blog1.html",
+  "meta": {}
+}
